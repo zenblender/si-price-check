@@ -1,0 +1,20 @@
+{
+  "name": "si-price-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.11.1",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "xlsx": "^0.15.6"
+  }
+}
