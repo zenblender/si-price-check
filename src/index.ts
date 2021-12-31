@@ -129,7 +129,10 @@ function logPriceDiffs(reportPriceList: PriceList, currentPriceList: PriceList) 
 
 function go() {
   const workbook = XLSX.readFile(process.env.XLSX_PATH)
+
   sheet = workbook.Sheets['USA Stocks']
+
+  // console.log(JSON.stringify(sheet, null, 2))
 
   console.log(`High Quality Stocks Criteria: UNDERVALUED, ${MIN_SI_CRITERIA}+ SI CRITERIA`)
 
