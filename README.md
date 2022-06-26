@@ -1,3 +1,5 @@
+# DEPRECATED: Simply Investing now has a Report and Analysis Platform, and no longer publishes XLSX reports that this project used.
+
 # Simply Investing Price Check
 
 This project analyzes the current SimplyInvesting.com XLSX Report, and lists its dividend stocks that:
